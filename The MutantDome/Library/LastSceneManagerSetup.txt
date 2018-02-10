@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/dumbscene.unity
+  isLoaded: 1
+  isActive: 1
