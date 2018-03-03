@@ -173,7 +173,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1798127284
 GameObject:
@@ -288,50 +288,6 @@ MonoBehaviour:
   StartZ: 0
   LineMaterial: {fileID: 2100000, guid: 91a5c1b691a5845be88f77e3e2b69c80, type: 2}
   MainColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &1908059589
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1908059591}
-  - component: {fileID: 1908059590}
-  m_Layer: 0
-  m_Name: Tileset
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1908059590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908059589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c338fbdc16646c1a2ffb01839db4d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Tiles:
-  - {fileID: 4000010041083728, guid: 04d2aa2b3235d4f96a9bc3453962b46e, type: 2}
-  - {fileID: 4000010041083728, guid: b03ff37209fbc4a5b838776400df6abb, type: 2}
-  - {fileID: 4000010041083728, guid: 6b8e52f28732647acb63c0f7698e0f47, type: 2}
---- !u!4 &1908059591
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908059589}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2080701997
 Prefab:
   m_ObjectHideFlags: 0
@@ -369,7 +325,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4476745195887002, guid: 840ad8b7ad2c249179d3bc1e62ace2f2, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114203227262763276, guid: 840ad8b7ad2c249179d3bc1e62ace2f2,
         type: 2}
@@ -380,7 +336,8 @@ Prefab:
         type: 2}
       propertyPath: Tileset
       value: 
-      objectReference: {fileID: 1908059590}
+      objectReference: {fileID: 114136527169399974, guid: 6d0606b8a53107343a13974e5f2a0db6,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 840ad8b7ad2c249179d3bc1e62ace2f2, type: 2}
   m_IsPrefabParent: 0
@@ -470,7 +427,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
