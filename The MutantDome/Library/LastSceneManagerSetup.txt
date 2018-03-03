@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Armando's Work/Start Menu.unity
+=======
+- path: Assets/Level Loader.unity
+>>>>>>> origin/master
   isLoaded: 1
   isActive: 1
